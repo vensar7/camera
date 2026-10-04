@@ -1,0 +1,27 @@
+name: camera_yandex_disk
+description: A Flutter camera app that uploads photos and videos to Yandex.Disk using OAuth
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.0+4
+  path_provider: ^2.0.11
+  path: ^1.8.2
+  flutter_web_auth: ^0.4.0
+  http: ^0.13.6
+  flutter_secure_storage: ^8.0.0
+  video_player: ^2.5.1
+  url_launcher: ^6.1.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
